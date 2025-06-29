@@ -36,26 +36,3 @@ The model predicts overheating (`1`) or normal (`0`) based on:
 ```bash
 git clone https://github.com/your-username/SmartBatteryCoolingSystem.git
 cd SmartBatteryCoolingSystem
-2. Install Required Libraries
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Generate Dataset & Train Model
-bash
-Copy
-Edit
-python generate_dataset.py
-python train_model.py
-4. Run the Flask API (for NodeMCU)
-bash
-Copy
-Edit
-python api_server.py
-Runs at: http://<your-ip>:5000/predict
-
-5. (Optional) Run Streamlit UI for Testing
-bash
-Copy
-Edit
-streamlit run battery_ui.py
